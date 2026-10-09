@@ -1,0 +1,25 @@
+{
+  "name": "arabic-motion-templates",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion building blocks for Arabic RTL motion graphics",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render ExplainerDemo out/explainer.mp4 --codec=h264",
+    "render:hook": "remotion render HookDemo out/hook.mp4 --codec=h264",
+    "render:logo": "remotion render LogoRevealDemo out/logo.mp4 --codec=h264",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/cairo": "^5.3.0",
+    "@fontsource/lalezar": "^5.3.0",
+    "@remotion/cli": "4.0.534",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.534"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.8",
+    "typescript": "5.8.3"
+  }
+}
